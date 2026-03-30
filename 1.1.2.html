@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patch FR v1.1.2 - VA-11 Hall-A Trad FR</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <style>
+        @font-face {
+            font-family: 'Kongtext';
+            src: url('kongtext.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        .jiggle-text {
+            display: inline-block;
+        }
+        
+        @keyframes jiggle {
+            0% { transform: rotate(-1deg); }
+            50% { transform: rotate(1deg); }
+            100% { transform: rotate(-1deg); }
+        }
+
+        .header-logo:hover {
+            animation: jiggle 0.2s infinite;
+        }
+
+        .jiggle-text:hover {
+            animation: jiggle 0.2s infinite;
+        }
+
+        .social-icons img:hover {
+            animation: jiggle 0.2s infinite;
+        }
+
+        body {
+            background-color: #212529;
+            color: white;
+            padding: 2rem;
+            font-family: 'Kongtext', 'Press Start 2P', cursive;
+        }
+        .nes-container.is-dark {
+            background-color: #2c2f34;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .blog-post {
+            margin-bottom: 3rem;
+        }
+        .nes-btn {
+            margin-top: 1rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+        }
+        .social-icons a {
+            margin: 0 0.5rem;
+        }
+        .social-icons img {
+            height: 64px; 
+            width: 64px; 
+            image-rendering: pixelated; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html">
+                <img src="KiraMikiSprite.webp" alt="Kira Miki Sprite" class="header-logo">
+            </a>
+            <h1 class="nes-text is-primary jiggle-text">VA-11 Hall-A Traduction Francaise</h1>
+            <p class="jiggle-text">Une traduction de Bar Cyberpunk</p><br/>
+            <img src="SeiSpriteArmor.webp" alt="Sei Sprite" class="header-logo"><img src="Stella.webp" alt="Stella Sprite" class="header-logo">
+        </header>
+
+        <main class="nes-container is-dark with-title">
+            <h2 class="title jiggle-text">Patch FR v1.1.2 Portage Switch</h2>
+            <p><strong>Rédigé par:</strong> TheDrakakis</p>
+            <p><strong>Le:</strong> 30 Mars 2026</p>
+
+            <div class="blog-content">
+                <p style="font-weight: bold; font-style: italic;">Portage Switch.</p>
+            <p>Ajout de la traduction de la version Nintendo Switch, automatisation du build des versions Switch, et corrections mineures</p>
+            <p>Le jeu en entier est enfin traduit, il ne reste que la correction des coquilles ayant pu fuir nos yeux vigilants.</p>
+            <p>Disponible au téléchargement une version alternative (PS-Edition) adaptée aux personnes photosensible par <a href="https://twitter.com/SpiritOfRei" class="nes-text is-primary jiggle-text">SpiritOfRei</a>.</p>
+
+                <hr class="nes-text is-disabled" style="margin: 2rem 0;">
+
+                <p>Ceci est un patch intégrant la traduction française Non-Officielle du jeu "VA-11 Hall-A : VA-11 Hall-A: Cyberpunk Bartender Action" par Sukeban Games.</p>
+                <p>Une partie de la traduction est issue de la traduction qui devait être l'officielle, fournie par Kazuhiro de l'Équipe Mirai et dans un second temps par Gordon Frenchman de l'équipe de traduction officielle. Également, notez que la publication de cette traduction n'a été approuvé ni par les développeurs du jeu, ni par l'éditeur.</p>
+                <p>Bien qu'une partie de la traduction soit issue du "leak" de la version qui devait être la version officielle, notez qu'une bonne partie de la traduction n'en est pas issue, a été retraduite ou reformulée afin de rester harmonieuse avec notre vision de l'adaptation.</p>
+                <p>Cette version de la traduction et sa distribution ne bénéficient pas d'une quelconque bénédiction des ayants droits. La partie "Non-Officielle" de la traduction représente tout de même un travail conséquent et est protégée par le droit d'auteur. CC BY-NC-SA 4.0</p>
+
+                <hr class="nes-text is-disabled" style="margin: 2rem 0;">
+
+                <h3>Téléchargements - Patch FR v1.1.2 :</h3>
+                <ul class="nes-list is-disc">
+                    <li>Pour <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Windows_setup.exe" class="nes-text is-primary jiggle-text">Windows (version auto-installer)</a> ou <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Windows_PS-Edition_setup.exe" class="nes-text is-primary jiggle-text">sa version photosensible😎</a></li><br/>
+                    <li>Pour <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Windows-Manual-Installer.7z" class="nes-text is-primary jiggle-text">Windows (version manuelle)</a> ou <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Windows-Manual-Installer_PS-Edition.7z" class="nes-text is-primary jiggle-text">sa version photosensible😎</a></li><br/>
+                    <li>Pour <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Linux.tar.gz" class="nes-text is-primary jiggle-text">Linux/SteamDeck</a> ou <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Linux_PS-Edition.tar.gz" class="nes-text is-primary jiggle-text">sa version photosensible😎</a></li><br/>
+                    <li>Pour <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Vita.7z " class="nes-text is-primary jiggle-text">Playstation Vita</a> ou <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Vita_PS-Edition.7z" class="nes-text is-primary jiggle-text">sa version photosensible😎</a><br>⚠️(requiert une Vita moddée, avec les plugins repatch et nonpdrm)</li><br/>
+                    <li>Pour <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Switch.7z" class="nes-text is-primary jiggle-text">Switch</a> ou <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation/releases/download/1.1.2/VA-11_Hall-A_Patch_FR_1.1.2_Switch_PS-Edition.7z" class="nes-text is-primary jiggle-text">sa version photosensible😎</a><br>⚠️(requiert une switch moddée ou l'utilisation d'un émulateur)</li>
+                </ul>
+
+                <hr class="nes-text is-disabled" style="margin: 2rem 0;">
+
+                <h3>Ce qui a été fait</h3>
+                <ul class="nes-list is-disc">
+                    <li>Les dialogues du bar (Traduits par l'équipe de Gordon Frenchman ainsi que The Drakakis, Shikanata et Shushurocket. Relus, harmonisés et intégrés par The Drakakis, Shikanata et Shushurocket)
+                    <li>Les monologues de Jill par TheDrakakis</li>
+                    <li>Les "dialogues" avec Fore par TheDrakakis</li>
+                    <li>Une grande partie de l'interface par TheDrakakis</li>
+                    <li>L'autre partie de l'interface par Shushurocket</li>
+                    <li>Les recettes des boissons TheDrakakis</li>
+                    <li>Les articles de The Augmented Eye (Traduits par l'équipe de Gordon Frenchman et par TheDrakakis. Relecture + harmonisation + intégration The Drakakis et Shushurocket)</li>
+                    <li>Les articles de /Danger/U/ (Traduits par l'équipe de Gordon Frenchman. Relecture + harmonisation + intégration The Drakakis et Shushurocket)</li>
+                    <li>Le blog de Kira Miki (Traduits par l'équipe de Gordon Frenchman, relecture + harmonisation + intégration The Drakakis et Shushurocket)</li>
+                    <li>La trad du prologue (Traduits par l'équipe de Gordon Frenchman, relecture + harmonisation + intégration The Drakakis, Shikanata, Kamy et Shushurocket)</li>
+                    <li>Relecture générale par Kamy, Shikanata, Shushurocket, et The Drakakis</li>
+                    <li>La version Vita (Subsistent des problèmes de caractères accentués qui ne s'affichent pas dans certaines polices. Compatible Version EU uniquement)</li>
+                    <li>La version Nintendo Switch</li>
+                </ul>
+
+                <hr class="nes-text is-disabled" style="margin: 2rem 0;">
+                
+                <h3>Ce qui reste à faire</h3>
+                <ul class="nes-list is-disc">
+                    <li>La corrections des erreurs nous ayant échappées</li><br/>
+                </ul>
+
+                <hr class="nes-text is-disabled" style="margin: 2rem 0;">
+
+                <h3>Crédits et remerciements</h3>
+                <p>Notre équipe / l'équipe de traduction non-officielle / l'équipe de va11-fr (on a pas vraiment de nom en fait):</p>
+                <ul class="nes-list is-disc">
+                    <li>TheDrakakis</li>
+                    <li>Shikanata</li>
+                    <li>Shushurocket</li>
+                    <li>Kamy</li>
+                </ul>
+                <p>L'équipe de traduction "officielle"/ L'équipe de Gordon Frenchman:</p>
+                <ul class="nes-list is-disc">
+                    <li>Benjamin "Gordon Frenchman/Jcdenton" Doussot</li>
+                    <li>Piapiou</li>
+                    <li>Odrake</li>
+                    <li>Vaea</li>
+                    <li>Nävis</li>
+                    <li>Keithan</li>
+                    <li>Melhoodiey</li>
+                    <li>DjDeathrow</li>
+                    <li>Kazuhiro</li>
+                </ul>
+                <p>Merci à eux, sans qui notre travail aurait été bien plus long et complexe.</p>
+                <p>Merci à SpiritOfRei de nous avoir permis d'intégrer son mod incluant des modifications spécifiques pour personnes photosensible.</p>
+                <p>Merci également aux utilisateurs du Discord nous ayant fait remonter moult erreurs, coquilles, bugs, et retours à la ligne manquants.</p>
+                <p>Merci à Sukeban pour Va-11 Hall-A, nous attendons la "suite" avec impatience.</p>
+            </div>
+
+            <a href="index.html" class="nes-btn is-primary back-btn">
+                <i class="nes-icon arrow-left jiggle-text"></i> Retour
+            </a>
+        </main>
+
+        <footer>
+            <div class="social-icons">
+                <a href="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation" target="https://github.com/LosDrakakos/VA-11-Hall-A-French-Translation" aria-label="github"><img src="github.png" alt="Github Logo"/></a>
+                <a href="https://discord.gg/9yRBZqydKw" target="https://discord.gg/9yRBZqydKw" aria-label="discord"><img src="Discord.png" alt="Discord Logo"/></a>
+            </div>
+            <p><a class="maintitle" href="https://va11-fr.drakakorp.eu/" title="VA-11 Hall-A Trad FR">VA-11 Hall-A Trad FR</a> - <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 International</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+		</p>
+        </footer>
+    </div>
+</body>
+</html>
